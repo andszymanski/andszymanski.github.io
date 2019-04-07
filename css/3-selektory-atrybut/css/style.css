@@ -1,0 +1,13 @@
+[title] {
+    font-size: 30px;
+    color: red
+}
+
+[title="About me"]{
+    color: blue;
+    font-style: italic;
+}
+[title*="olio"] {
+    color: green;
+    font-size: 14px
+}
