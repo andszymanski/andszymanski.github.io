@@ -1,0 +1,23 @@
+p {
+    background-color: blue !important;
+}
+
+/* 100 */
+
+#tekst {
+    background-color: red;
+    font-size: 200px
+}
+
+/* 10 */
+
+.text {
+    background-color: green;
+    font-size: 40px
+}
+
+p {
+    /* 1 */ 
+    background-color: yellow;
+    font-size: 22px
+}

@@ -11,3 +11,15 @@
     color: green;
     font-size: 14px
 }
+[title^="More"] {
+    background-color:blueviolet;
+    color:white
+
+}
+[title$="More"]{
+    background: red;
+    color:yellow
+}
+li[title]:last-child{
+    background-color: darkblue;
+}
