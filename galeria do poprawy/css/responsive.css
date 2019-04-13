@@ -1,0 +1,27 @@
+#gallery {
+    width: 100%
+
+}
+
+#figure {
+    width: 100%
+}
+
+@media (min-width: 540px) 
+{
+    #gallery {
+        width: 50%;
+    }
+    
+   @media (min-width: 760px) {
+       figure{
+           box-sizing: border-box;
+           width: 50%;
+
+       }
+   }
+   @media (min-width: 992px){
+       figure{
+           width: 33%;
+       }
+   }
