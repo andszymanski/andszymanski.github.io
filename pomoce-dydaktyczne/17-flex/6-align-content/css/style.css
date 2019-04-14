@@ -11,12 +11,13 @@ Domyślne kolory 'flex-item' - START
     padding: 10px;
     margin: 3px;
     background-color: orange;
-    flex-basis: 15%;
-   flex-grow: 1;
+    flex-basis: 27%;
+    max-height: 220px;
 }
 
 .flex-item:nth-last-of-type(odd) {
     background-color: lightgray;
+    max-height: 150px;
 }
 /* 
 ------------------------------------
@@ -31,10 +32,17 @@ Domyślne kolory 'flex-item' - END
 .container {
     border: 1px dashed red;
     display: flex;
-}
+    flex-wrap: wrap;
+    height: 700px;
 
-.ordered-item {
-/*    flex-grow: 3;*/
+    align-content: stretch;
+   align-content: center;   
+   align-content: flex-start;
+   align-content: flex-end;
+   align-content: space-between;
+   align-content: space-around;
+
+
 }
 
 

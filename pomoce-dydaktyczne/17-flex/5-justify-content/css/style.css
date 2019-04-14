@@ -12,7 +12,6 @@ Domyślne kolory 'flex-item' - START
     margin: 3px;
     background-color: orange;
     flex-basis: 15%;
-   flex-grow: 1;
 }
 
 .flex-item:nth-last-of-type(odd) {
@@ -31,10 +30,12 @@ Domyślne kolory 'flex-item' - END
 .container {
     border: 1px dashed red;
     display: flex;
-}
-
-.ordered-item {
-/*    flex-grow: 3;*/
+    justify-content: flex-start;
+   justify-content: flex-end;
+   justify-content: center;
+   justify-content: space-between;
+   justify-content: space-around;
+   justify-content: space-evenly;   
 }
 
 

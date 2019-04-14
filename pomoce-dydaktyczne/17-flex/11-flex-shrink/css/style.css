@@ -11,8 +11,8 @@ Domyślne kolory 'flex-item' - START
     padding: 10px;
     margin: 3px;
     background-color: orange;
-    flex-basis: 15%;
-   flex-grow: 1;
+    flex-basis: 40%;
+/*    flex-shrink: 2;*/
 }
 
 .flex-item:nth-last-of-type(odd) {
@@ -33,8 +33,13 @@ Domyślne kolory 'flex-item' - END
     display: flex;
 }
 
+/*
+Każdy item ma ustawiony flex-basis na 40%.
+Czyli itemy są szersze o 20% niż kontener.
+Ustaw flex-shrink, aby zobaczyć jak item się zmniejsza :)
+*/
 .ordered-item {
-/*    flex-grow: 3;*/
+/*    flex-shrink: 4;*/
 }
 
 

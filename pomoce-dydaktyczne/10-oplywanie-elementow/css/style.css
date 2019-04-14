@@ -1,0 +1,18 @@
+#strawberry {
+	float: left;
+}
+
+#strawberry-right {
+    float: right;
+}
+
+#strawberry {
+    float: none;
+}
+
+p:last-child {
+    background-color: yellow;
+    clear: both;
+}
+
+
