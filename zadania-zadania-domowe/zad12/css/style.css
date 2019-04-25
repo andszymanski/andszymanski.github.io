@@ -1,0 +1,22 @@
+body{
+    background-color:cornsilk;
+}
+
+.rectangle {
+    width: 100px;
+    height:100px;
+    background-color:black;
+    margin-bottom:20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangle.one {
+    opacity: 0.8;
+}
+.rectangle.two {
+    opacity: 0.5;
+}
+.rectangle.three {
+    opacity: 0.25s;
+}

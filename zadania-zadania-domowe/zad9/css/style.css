@@ -1,0 +1,14 @@
+body{
+    background-color:grey;
+}
+
+.rectangle {
+    width: 100px;
+    height:100px;
+    background-color:orange;
+    margin-bottom:20px;
+}
+
+.name .list {
+    color:white;
+}
