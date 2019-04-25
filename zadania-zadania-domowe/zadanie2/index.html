@@ -1,0 +1,59 @@
+ 
+<!DOCTYPE html>
+<html lang="pl">
+<title>formularz</title>
+<body>
+<p>Aby zapisać się na szkolenie, prosze wypelnić poniższy formularz:</p>
+<form action = "https://formspree.io/velmed@velmed.pl" method = "POST" >
+ 
+  <label for="imie">Imię:</label><br>
+  <input type="text" name="imie" required id="imie">
+  <br><br>
+ 
+  <label for="nazwisko">Nazwisko:</label><br>
+  <input type="text" name="nazwisko" required id="nazwisko">
+ 
+  <br><br>
+  <label for="email">Email:</label><br>
+  <input type="text" name="email" required id="email" >
+ 
+  <br><br>
+<label for="telefon">Telefon:</label><br>
+  <input type="number" name="telefon" required id="telefon">
+ 
+ 
+  <br><br>
+   <p>Proszę wybrać miasto:</p>
+   <label for="kraków">Kraków</label>
+  <input type="radio" name="miasto" id="kraków" value="krakow" >
+ 
+  <label for="warszawa">Warszawa</label>
+  <input type="radio" name="miasto" id="warszawa" value="warszawa" >
+ 
+  <label for="gdańsk">Gdańsk</label>
+  <input type="radio" name="miasto" id="gdańsk" value="gdańsk" >
+ 
+  
+  <p>Proszę wybrać płeć:</p>
+  <p> wybierz płeć </p>
+ 
+  
+  <label for="mężczyzna">Mężczyzna</label>
+  <input type="radio" name="płeć" id="mężczyzna" value="mężczyzna">
+ 
+  <label for="kobieta">Kobieta</label>
+  <input type="radio" name="płeć" id="kobieta" value="kobieta">
+ 
+  <label for="inne">Inne</label>
+  <input type="radio" name="płeć" id="inne" value="inne">
+  <br><br>
+ 
+ 
+  <label><input type="checkbox" required> Zagadam się na przetwarzanie danych osobowych</label>
+   <br><br>
+        <textarea cols="500" name="Wiadomość" placeholder="Wpisz wiadomość"></textarea>
+                 <br><br>
+   <input type="submit" value="Zatwierdź">
+</form>
+</body>
+ 
