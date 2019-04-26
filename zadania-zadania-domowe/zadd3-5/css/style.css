@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+#header {
+    color:white;
+    background-color:red;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#main {
+    display:flex;
+    height: 200px;
+    flex-wrap: wrap;
+
+}
+
+#aside-left {
+    width:20%;
+    background-color:green;
+    color:white;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+#opis {
+    width: 60%;
+    background-color:blue;
+    color:white;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+#aside-right {
+    width:20%;
+    background-color:pink;
+    color:white;
+    text-align:center;
+    text-transform: uppercase;
+}
+#footer {
+    color:white;
+    background-color:purple;
+    text-align:center;
+    text-transform:uppercase;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    #aside-left{
+        order: 3;
+        width: 100%;
+    }
+    #aside-right {order: 2;}
+    #opis{
+        order: 1;
+        width: 80%;
+    }
+}
