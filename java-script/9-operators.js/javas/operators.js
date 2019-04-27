@@ -65,3 +65,4 @@ switch (kolor) {
         default:
         console.log("Inny kolor");
 }
+
