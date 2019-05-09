@@ -14,7 +14,6 @@
     display:flex;
     height: 200px;
     flex-wrap: wrap;
-
 }
 
 #aside-left {
@@ -58,5 +57,20 @@
     #opis{
         order: 1;
         width: 80%;
+        
     }
 }
+@media(max-width: 767px){
+    #aside-left{
+        order: 1;
+        width: 100%;
+    }
+    #aside-right {
+        order: 2;
+        width: 100%;
+    }
+    #opis {
+        width: 100%;
+    }
+}
+
