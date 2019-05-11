@@ -22,9 +22,8 @@ function pokazNapis(napis){
     console.log(napis);
 }
 
-function rrso(a,b){
-    let pole = a * b * 2;
-}
+
+
 
 
 
