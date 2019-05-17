@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularz</title>
+  
+</head>
+<body>
+        <form action="https://formspree.io/andszymanski@tlen.pl" method="POST">
+            <p>Aby zapisać się na szkolenie proszę wypełni poniszy kwestionariusz</p>
+        <label for="imie">imię:</label><br>
+        <input type="text" name="imie" required id="imie">
+        <br><br>
+        <label for="nazwisko">nazwisko:</label><br>
+        <input type="text" name="nazwisko" required id="nazwisko">
+        <br><br>
+        <label for="email">e-mail:</label><br>
+        <input type="email" name="email" required id="email">
+        <br><br>
+        <label for="telefon">telefon</label><br>
+        <input type="number" name="telefon" required id="telefon">
+        <br><br>
+        <p>Proszę wybrać miasto</p>
+        <label for="Krakow">Kraków</label>
+        <input type="radio" name="miasto" required id="Krakow" value="Kraków">
+        
+        <label for="Warszawa">Warszawa</label>
+        <input type="radio" name="miasto" required id="Warszawa" value="Warszawa">
+
+        <label for="Gdansk">Gdańsk</label>
+        <input type="radio" name="miasto" required id="Gdansk" value="Gdańsk">
+        <br><br>
+        <p>proszę wybrać płeć</p>
+        <label for="Mezczyzna">Męzczyzna</label>
+        <input type="radio" name="gender" required id="Mezczyzna" value="Mezczyzna">
+        
+        <label for="Kobieta">Kobieta</label>
+        <input type="radio" name="gender" required id="Kobieta" value="Kobieta">
+        
+        <label for="Inne">Inne</label>
+        <input type="radio" name="gender" required id="Inne" value="Inne">
+        <br><br>
+        <label for="checkbox">Zgoda na dane osobowe:</label>
+        <input type="checkbox" name="checkbox" required id="checkbox">
+
+        <br><br>
+        <label for="textarea">Wpisz wiadomość:</label><br>
+        <textarea maxlength="100" name="textarea" id="textarea"></textarea>
+        <br><br> 
+        <input type="submit" value="Wyslij">
+
+        </form>
+
+
+
+
+   <script src="js/main.js"></script>
+</body>
+</html>

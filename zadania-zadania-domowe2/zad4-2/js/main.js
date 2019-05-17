@@ -4,6 +4,7 @@ function sortLetter(string){
     string = string.sort();
     string = string.join('');
     console.log(string);
+    return string;
 }
 
 sortLetter('Akademia108');
