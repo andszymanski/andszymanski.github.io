@@ -1,0 +1,31 @@
+#main-header {
+	transition: all 2s linear;
+}
+
+#container {
+	background-color: beige;
+}
+
+.even {
+	background-color: orange;
+}
+
+span {
+	padding: 0 20px;
+	border-right: 1px solid red;
+}
+
+.active {
+background-color: yellow !important;
+color:blue !important;
+}
+
+#parSecond {
+    border: 1 px solid red;
+	background-color: brown;
+	height: 50px;
+}
+
+#parWParSecond {
+	background-color: yellow;
+}

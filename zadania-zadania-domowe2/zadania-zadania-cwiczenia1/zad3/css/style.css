@@ -1,0 +1,89 @@
+body {
+background-color:aquamarine;
+}
+
+
+.container {
+display:flex;
+flex-wrap:wrap;
+}
+
+.rectangle {
+width: 125px;
+height: 125px;
+margin-bottom: 5px;
+margin-left: 5px;
+margin-right: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.rectangle.rectangle-a {
+    background-color: red;
+}
+.circle.circle-a {
+    background-color:pink;
+}
+
+.rectangle.rectangle-b {
+    background-color:blue;
+}
+.circle.circle-b {
+    background-color:gray;
+}
+
+.rectangle.rectangle-c {
+    background-color:green;
+}
+.circle.circle-c {
+    background-color:purple;
+}
+
+.rectangle.rectangle-d {
+    background-color:yellow;
+}
+.circle.circle-d {
+    background-color:darkgreen;
+}
+
+.rectangle.rectangle-e {
+    background-color: black;
+}
+.circle.circle-e {
+    background-color:red;
+}
+
+.rectangle.rectangle-f {
+    background-color:orange;
+}
+.circle.circle-f {
+    background-color:blue;
+}
+
+.rectangle.rectangle-g {
+    background-color:violet;
+}
+.circle.circle-g {
+    background-color:orange;
+}
+
+.rectangle.rectangle-h {
+    background-color:gray;
+}
+.circle.circle-h {
+    background-color:yellow;
+}
+
+.rectangle.rectangle-i {
+    background-color:pink;
+}
+.circle.circle-i {
+    background-color:black;
+}

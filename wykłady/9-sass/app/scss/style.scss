@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box
+}
+@import 'zmienne';
+
+.gora {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+
+.naglowek {
+    background-image: $background-img;
+    background-size:cover;
+    size: 100%;
+    width: 100%;
+    height: 90vh;
+}
+
+form {
+    
+    background-color: blue;
+    padding: 15px;
+
+}
+
+.form-window {
+    width: 20%;
+    position: relative;
+    left: 60%;
+    top: 20%;
+
+}
+
+h1 {
+    font-size: 16px;
+    color: white;
+}
+h2 {
+    font-size: 14px;
+    color: white;
+}
+#uni {
+    color: yellow;
+    size: 20px;
+}
+
+.form-input {
+    position: relative;
+    width: 90%;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+footer {
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-icon {
+    height: 30px;
+    width: 30px;
+    background-color:#ecd407;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.footer-text {
+      justify-items: center;
+}

@@ -1,0 +1,156 @@
+body {
+    background-color: red; }
+  
+  .ml-10 {
+    margin-left: 10px; }
+  
+  .ml-10 {
+    margin-right: 10px; }
+  
+  .ml-20 {
+    margin-left: 20px; }
+  
+  .ml-20 {
+    margin-right: 20px; }
+  
+  .ml-30 {
+    margin-left: 30px; }
+  
+  .ml-30 {
+    margin-right: 30px; }
+  
+  .ml-40 {
+    margin-left: 40px; }
+  
+  .ml-40 {
+    margin-right: 40px; }
+  
+  .ml-50 {
+    margin-left: 50px; }
+  
+  .ml-50 {
+    margin-right: 50px; }
+  
+  .ml-60 {
+    margin-left: 60px; }
+  
+  .ml-60 {
+    margin-right: 60px; }
+  
+  .ml-70 {
+    margin-left: 70px; }
+  
+  .ml-70 {
+    margin-right: 70px; }
+  
+  .ml-80 {
+    margin-left: 80px; }
+  
+  .ml-80 {
+    margin-right: 80px; }
+  
+  .ml-90 {
+    margin-left: 90px; }
+  
+  .ml-90 {
+    margin-right: 90px; }
+  
+  .ml-100 {
+    margin-left: 100px; }
+  
+  .ml-100 {
+    margin-right: 100px; }
+  
+  .ml-110 {
+    margin-left: 110px; }
+  
+  .ml-110 {
+    margin-right: 110px; }
+  
+  .ml-120 {
+    margin-left: 120px; }
+  
+  .ml-120 {
+    margin-right: 120px; }
+  
+  .ml-130 {
+    margin-left: 130px; }
+  
+  .ml-130 {
+    margin-right: 130px; }
+  
+  .ml-140 {
+    margin-left: 140px; }
+  
+  .ml-140 {
+    margin-right: 140px; }
+  
+  .ml-150 {
+    margin-left: 150px; }
+  
+  .ml-150 {
+    margin-right: 150px; }
+  
+  .ml-160 {
+    margin-left: 160px; }
+  
+  .ml-160 {
+    margin-right: 160px; }
+  
+  .ml-170 {
+    margin-left: 170px; }
+  
+  .ml-170 {
+    margin-right: 170px; }
+  
+  .ml-180 {
+    margin-left: 180px; }
+  
+  .ml-180 {
+    margin-right: 180px; }
+  
+  .ml-190 {
+    margin-left: 190px; }
+  
+  .ml-190 {
+    margin-right: 190px; }
+  
+  .ml-200 {
+    margin-left: 200px; }
+  
+  .ml-200 {
+    margin-right: 200px; }
+  
+  html {
+    font-size: 16px; }
+  
+  body {
+    background-color: blue;
+    size: 100%; }
+  
+  /*ten pojdzie do css*/
+  .form {
+    padding: 3vh;
+    border: 3px solid green; }
+    .form h2 {
+      font-size: 3.5rem; }
+    .form a {
+      font-size: 40px;
+      text-decoration: underline;
+      text-decoration-color: #db7908;
+      color: #db7908; }
+    .form__header {
+      background-color: sandybrown;
+      color: ivory; }
+    .form__btn {
+      border-radius: 3px;
+      border: 1px solid darkmagenta;
+      background: lightgreen; }
+      .form__btn:hover {
+        background: red; }
+      .form__btn--reset {
+        opacity: .4; }
+    .form__field {
+      padding: 6px;
+      border: 1px solid green;
+      color: khaki; }

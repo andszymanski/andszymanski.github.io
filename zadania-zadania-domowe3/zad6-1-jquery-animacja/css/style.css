@@ -1,0 +1,14 @@
+.rectangle {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 20px;
+    position: relative;
+
+
+}
+#text{
+  opacity: 0;
+  font-size: 18px;
+  color:white;
+}
