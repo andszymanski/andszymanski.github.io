@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color:black;
     display: flex;
     justify-content: center;
@@ -9,4 +9,41 @@ body {
 #odliczanie {
     color:white;
     font-size:120px;
+} */
+
+/* właściwości pudełka, w którym wyświetla się napisi liczby */
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    font-size: 20px;
 }
+
+ .num {
+    animation-name: countDown;
+    animation-duration: 11s;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(10);
+} /* właściwości animacji */
+
+
+/* właściwości liczb i napisu */
+.num div {
+    float: right;
+    text-align: center;
+    width: 100px;
+    line-height: 100px;
+}
+
+/* przesuwanie liczby w prawo, aby pojawiły się kolejne liczby */
+@keyframes countDown {
+    0% {
+       margin-right: 0px;
+    }
+    
+    100% {
+       margin-right: -1000px;
+    }
+} 
