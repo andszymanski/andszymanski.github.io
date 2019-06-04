@@ -7,6 +7,7 @@ const ButtonPanel = (props) =>
     <button onClick = {props.changeCounterValue} >Dodaj 1</button>
     <button onClick = {props.clearCounter}>Zeruj</button>
     <button onClick = {props.revertValue}>Przywróć</button>
+   
     </div>
     );
 }

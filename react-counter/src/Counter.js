@@ -1,6 +1,7 @@
-import React , {Component} from 'react';
+import React, { Component } from 'react';
 import ButtonPanel from "./ButtonPanel";
 import SetValuePanel from './SetValuePanel';
+import Step from "./Step";
 
 
 class Counter extends Component {
@@ -9,16 +10,16 @@ class Counter extends Component {
         super(props);
 
         this.state = {
-            
+
             counterValue: this.props.initValue
-        
-        
+
+
         }
     }
 
     changeValue = () => {
         this.setState((prevValue) => {
-            return({
+            return ({
 
                 counterValue: prevValue.counterValue + 1
             });
@@ -28,31 +29,44 @@ class Counter extends Component {
 
     revertValue = () => {
         this.setState(() => {
-            return({
-                counterValue : this.props.initValue
+            return ({
+                counterValue: this.props.initValue
             });
-        });    
+        });
     }
 
-clearValue= () =>{
-    this.setState({counterValue:0})
+    clearValue = () => {
+        this.setState({ counterValue: 0 })
     }
 
-setValue = (newValue) => {
-    this.setState({counterValue: newValue});
-}
+    pushMore = () => {
+        this.setState({ pushMore: + 5 })
+    }
 
-render(){
-    console.log(this);
-  return (
-    <div className="counter">
-        Licznik: {this.state.counterValue}
-      <ButtonPanel changeCounterValue= {this.changeValue} 
-      clearCounter={this.clearValue} 
-      revertValue={this.revertValue} />
-      <SetValuePanel setCounter={this.setValue} />
-    </div>
-  );
-}
+    setValue = (newValue) => {
+        this.setState({ counterValue: newValue });
+    }
+
+    render() {
+        console.log(this);
+        {/*return (
+        
+           } <div className="counter">
+                Licznik: {this.state.counterValue}
+                <ButtonPanel changeCounterValue={this.changeValue}
+                    clearCounter={this.clearValue}
+                    revertValue={this.revertValue}
+                    pushMore={this.pushMore}
+                />
+                <SetValuePanel setCounter={this.setValue} />
+                <Step />
+            </div>
+      
+        );  */}
+
+        return (
+            <Step />
+        );
+    }
 }
 export default Counter;
