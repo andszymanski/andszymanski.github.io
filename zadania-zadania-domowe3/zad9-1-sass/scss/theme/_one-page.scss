@@ -20,10 +20,10 @@
 
             .icon-about {
                 color: $color-text-primary;
-                width: $base-font-size * 4.5;
+                width: $base-font-size * 4,5;
                 height: $base-font-size * 4.5;
                 border-radius: 100%;
-                line-height: $base-font-size * 4.5;
+                line-height: $base-font-size * 4,5;
                 background-color: $color-primary;
                 margin: $margin-none auto $baseline;
             }
@@ -90,6 +90,7 @@
 
         hr {
             margin-bottom: $baseline;
+            border-color: #f0f4dc;
         }
 
         .counters-box div {
@@ -236,6 +237,10 @@
 
     #team {
         padding: $baseline $padding-none;
+
+        hr{
+            border-color: #f0f4dc;
+        }
 
         .container {
             margin-top: $baseline * 3;

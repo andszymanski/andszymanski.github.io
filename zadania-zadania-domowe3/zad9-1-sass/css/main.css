@@ -77,7 +77,7 @@
 * 
 **/
 /*==================================================
-=            1.0 - Settings and helpers            =
+=            1.0 - Settings and helpers           =
 ==================================================*/
 /***/
 /*==========  1.1 - @import(s)  ==========*/
@@ -94,6 +94,7 @@
 /* FONT PATH
  * -------------------------- */
 @import url("https://fonts.googleapis.com/css?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/font-awesome/fonts/fontawesome-webfont.eot?v=4.3.0");
@@ -108,7 +109,8 @@
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transform: translate(0, 0); }
+  transform: translate(0, 0);
+  color: #88ba00; }
 
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
@@ -1927,7 +1929,7 @@
  */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
+  font-family: "Raleway";
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
@@ -2973,7 +2975,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Raleway";
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -4675,7 +4677,7 @@ select[multiple].form-group-lg .form-control {
 
 @media (min-width: 768px) {
   .form-horizontal .form-group-sm .control-label {
-    padding-top: 6px; } }
+    padding-top: 24px; } }
 
 .btn {
   display: inline-block;
@@ -7467,7 +7469,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Raleway";
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -7575,7 +7577,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Raleway";
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
@@ -8191,7 +8193,7 @@ button.close {
  *    user zoom.
  */
 html {
-  font-family: sans-serif;
+  font-family: "Raleway";
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -8297,7 +8299,7 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 h1 {
-  font-size: 2em;
+  font-size: 66px;
   margin: 0.67em 0; }
 
 /**
@@ -8560,13 +8562,13 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: #5b5b5b;
-  font-family: "Lato Regular", Helvetica, sans-serif; }
+  font-family: "Lato Regular", Helvetica, "Raleway"; }
   body a, body input, body p {
-    font-family: "Lato Regular", Helvetica, sans-serif; }
+    font-family: "Lato Regular", Helvetica, "Raleway"; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
     text-transform: uppercase;
     color: #222222;
-    font-family: "Lato Bold", Helvetica, sans-serif;
+    font-family: "Lato Bold", Helvetica, "Raleway";
     margin-bottom: 24px;
     margin-top: 24px; }
   body h1 {
@@ -8717,6 +8719,7 @@ header.header-image {
 
 /***/
 /*==========  4.2 - Main styles  ==========*/
+/* */
 /***/
 /*==========  4.3 - Nav styles  ==========*/
 .navbar-default {
@@ -8725,7 +8728,7 @@ header.header-image {
   -moz-transition: all .35s;
   transition: all .35s; }
   .navbar-default .navbar-header .navbar-brand {
-    height: 56px;
+    height: 48px, 5;
     padding: 5px; }
   .navbar-default .navbar-nav {
     padding-top: 25px;
@@ -8767,7 +8770,7 @@ header.header-image {
       font-weight: 700;
       text-transform: uppercase;
       background-color: #ffffff;
-      font-family: "Lato Regular", Helvetica, sans-serif;
+      font-family: "Lato Regular", Helvetica, "Raleway";
       margin-left: 10px;
       padding-bottom: 10px;
       padding-top: 10px; }
@@ -8783,7 +8786,7 @@ header.header-image {
         font-size: 13px;
         font-weight: 700;
         text-transform: uppercase;
-        font-family: "Lato Regular", Helvetica, sans-serif; }
+        font-family: "Lato Regular", Helvetica, "Raleway"; }
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
       background-color: #ffffff;
       color: #979797; }
@@ -8854,7 +8857,7 @@ header.header-image {
         font-weight: 700;
         text-transform: uppercase;
         background-color: #ffffff;
-        font-family: "Lato Regular", Helvetica, sans-serif;
+        font-family: "Lato Regular", Helvetica, "Raleway";
         padding-top: 16px;
         padding-bottom: 16px;
         margin-left: 0; }
@@ -8868,7 +8871,7 @@ header.header-image {
           font-size: 13px;
           font-weight: 700;
           text-transform: uppercase;
-          font-family: "Lato Regular", Helvetica, sans-serif; }
+          font-family: "Lato Regular", Helvetica, "Raleway"; }
       .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         background-color: #ffffff;
         color: #5b5b5b; }
@@ -8902,7 +8905,7 @@ header.header-image {
         font-size: 13px;
         font-weight: 700;
         text-transform: uppercase;
-        font-family: "Lato Regular", Helvetica, sans-serif; }
+        font-family: "Lato Regular", Helvetica, "Raleway"; }
     .navbar-default.affix .open .dropdown-menu > li > a:hover, .navbar-default.affix .open .dropdown-menu > li > a:focus {
       background-color: #ffffff;
       color: #979797; }
@@ -8982,7 +8985,7 @@ header.header-image {
     width: 40px;
     height: 40px;
     font-size: 32px;
-    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-family: "Lato Regular", Helvetica, "Raleway";
     line-height: 35.2px;
     margin: 0;
     z-index: 11; }
@@ -9019,7 +9022,7 @@ header.header-image {
       margin-bottom: 24px; }
     #main-slider .carousel-caption .btn-primary {
       margin-top: 48px;
-      font-size: 14px;
+      font-size: -10px;
       padding: 10px 12px; }
   #main-slider .icon-prev, #main-slider .icon-next {
     top: 45%; }
@@ -9361,7 +9364,7 @@ form fieldset {
   margin-right: auto; }
   .t108-page time {
     font-size: 20px;
-    font-family: "Lato Bold", Helvetica, sans-serif;
+    font-family: "Lato Bold", Helvetica, "Raleway";
     color: #222222;
     text-transform: uppercase; }
   .t108-page figure {
@@ -9426,10 +9429,10 @@ form fieldset {
       margin-bottom: 0; }
     .t108-one-page #about .about-box .icon-about {
       color: #ffffff;
-      width: 72px;
+      width: 64px, 5;
       height: 72px;
       border-radius: 100%;
-      line-height: 72px;
+      line-height: 64px, 5;
       background-color: #a5e200;
       margin: 0 auto 24px; }
 
@@ -9472,7 +9475,8 @@ form fieldset {
   background: url(../images/counters/counters_progres.jpg) 50% 0 fixed;
   color: #ffffff; }
   .t108-one-page #counters-progress hr {
-    margin-bottom: 24px; }
+    margin-bottom: 24px;
+    border-color: #f0f4dc; }
   .t108-one-page #counters-progress .counters-box div {
     margin-left: auto;
     margin-right: auto; }
@@ -9565,6 +9569,8 @@ form fieldset {
 
 .t108-one-page #team {
   padding: 24px 0; }
+  .t108-one-page #team hr {
+    border-color: #f0f4dc; }
   .t108-one-page #team .container {
     margin-top: 72px; }
     .t108-one-page #team .container img {
@@ -9762,12 +9768,12 @@ form fieldset {
   #typography .blockquotes blockquote {
     border-color: #a5e200; }
     #typography .blockquotes blockquote h4, #typography .blockquotes blockquote h6 {
-      font-family: "Lato Light", Helvetica, sans-serif; }
+      font-family: "Lato Light", Helvetica, "Archivo black"; }
     #typography .blockquotes blockquote h4 {
       font-size: 21px;
       margin-top: 0; }
   #typography .blockquotes .blockquotes-normal p, #typography .blockquotes .blockquotes-source p {
-    font-family: "Lato Italic", Helvetica, sans-serif;
+    font-family: "Lato Italic", Helvetica, "Raleway";
     font-size: 20px; }
   #typography .blockquotes .other-styles {
     margin-top: 24px;
